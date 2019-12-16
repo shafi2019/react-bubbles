@@ -26,9 +26,9 @@ const Login = props => {
   }
 
   return (
-    <>
+    <div class="loginform">
       <h1>Welcome to the Bubble App!</h1>
-      <p>Build a login page here</p>
+      <p>Build by Shafi</p>
       <div>
         <form onSubmit={handleSubmit}>
           <input placeholder='Username' value={data.username} name='username' type='text' onChange={handleChange} />
@@ -36,7 +36,7 @@ const Login = props => {
           <button type='submit'>Submit</button>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
