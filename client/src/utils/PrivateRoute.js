@@ -12,7 +12,7 @@ const PrivateRoute = ({ component: Component, ...theRest }) => {
             console.log(
               "Privateroute.js: Privateroute: Route.render: redirecting!"
             );
-            return <Redirect to="/bubble-page" />;
+            return <Redirect to="/" />;
           }
         }}
       />

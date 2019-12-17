@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {axiosWithAuth} from "../utils/AxiosWithAuth";
+import { axiosWithAuth } from "../utils/AxiosWithAuth";
 
 const Login = props => {
   // make a post request to retrieve a token from the api
@@ -31,9 +31,9 @@ const Login = props => {
       <p>Build by Shafi</p>
       <div>
         <form onSubmit={handleSubmit}>
-          <input placeholder='Username' value={data.username} name='username' type='text' onChange={handleChange} />
+          <input placeholder='User Name' value={data.username} name='username' type='text' onChange={handleChange} />
           <input placeholder='Password' value={data.password} name='password' type='password' onChange={handleChange} />
-          <button type='submit'>Submit</button>
+          <button type='submit'> Log In </button>
         </form>
       </div>
     </div>
